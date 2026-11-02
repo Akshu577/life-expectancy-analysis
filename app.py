@@ -28,6 +28,7 @@ with tab1:
                                      if c in countries])
     if picked:
         trend = raw[raw["Country"].isin(picked)].pivot_table(index="Year", columns="Country", values=TARGET)
+        trend.index = trend.index.astype(str)  # otherwise the axis shows 2,000, 2,001...
         st.line_chart(trend, y_label="Life expectancy (years)")
 
 with tab2:
