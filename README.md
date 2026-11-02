@@ -1,5 +1,7 @@
 # What Affects Life Expectancy? (WHO data, 193 countries, 2000–2015)
 
+**Live page:** https://akshu577.github.io/life-expectancy-analysis/
+
 I wanted to find out which public health and economic factors have the biggest effect on life expectancy, and how few of them you need to predict it well.
 
 Everything is in [`Life_Expectancy_Analysis.ipynb`](Life_Expectancy_Analysis.ipynb).
